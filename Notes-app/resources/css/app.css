@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400; /* You may need to adjust this based on the available font weights. */
+    src: url("../public/fonts/Inter-Regular.woff2") format("woff2"),
+        url("../public/fonts/Inter-Regular.woff") format("woff");
+}
+
+/* Additional font weights and styles */
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../public/fonts/Inter-Bold.woff2") format("woff2"),
+        url("../public/fonts/Inter-Bold.woff") format("woff");
+}
+
+/* Add more @font-face rules for different weights and styles as needed */
+body {
+    font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

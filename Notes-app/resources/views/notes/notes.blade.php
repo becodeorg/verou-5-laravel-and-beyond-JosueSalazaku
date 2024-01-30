@@ -1,17 +1,17 @@
 @vite('resources/css/app.css')
 @extends('layouts')
 @section('content')
-    <div class="container mx-auto mt-8">
-        <h1>Notes Page</h1>
-
-        <!-- Display existing notes -->
-        <ul>
+    <main class="container mx-auto mt-8">
+        <h1 class="text-2xl font-semibold">User's Notes</h1>
+        <ul class="w-30 flex flex-row justify-center m-9">
             @foreach($notes as $note)
-                <li>
+                <li class="my-5 border border-blue-700 rounded-lg p-12 px-5 w-36 m-5">
                     <strong>{{ $note->title }}</strong>
                     <p>{{ $note->content }}</p>
+                    <p>{{ $note->created_at }}</p> 
                 </li>
             @endforeach
         </ul>
-    </div>
+        
+    </main>
 @endsection

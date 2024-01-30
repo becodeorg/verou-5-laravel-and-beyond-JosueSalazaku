@@ -13,9 +13,9 @@
     <header class="w-full h-20 flex items-center justify-around bg-sky-800 text-white">
         <nav class="w-full">
             <ul class="flex flex-row justify-between">
-                <li class="mx-4"><a href="{{ route('welcome') }}">Home</a></li>
-                <li class="mx-4"><a href="{{ route('notes.notes') }}">Notes</li>
-                <li class="mx-4"><a href="#">Contact</a></li>
+                <li class="mx-20"><a href="{{ route('welcome') }}">Home</a></li>
+                <li class="ml-44"><a href="{{ route('notes.notes') }}">Notes</li>
+                <li class="mx-20"><a href="#">Create</a></li>
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>

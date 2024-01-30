@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+use App\Http\Controllers\NoteController;
+
+Route::get('/notes', [NoteController::class, 'notes'])->name('notes.notes');
+
+
 
 Route::get('/', function () {
     return view('welcome');

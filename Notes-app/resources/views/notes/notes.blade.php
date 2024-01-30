@@ -1,7 +1,7 @@
 @vite('resources/css/app.css')
 @extends('layouts')
 @section('content')
-    <main class="container mx-auto w-screen h-screen mt-8 bg-black">
+    <main class="w-screen h-screen bg-black">
         <h1 class="text-2xl font-semibold">User's Notes</h1>
         <ul class="w-30 flex flex-row justify-center m-9">
             @foreach($notes as $note)

@@ -6,7 +6,18 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: [
+                    "Inter",
+                    "system-ui",
+                    "Avenir",
+                    "Helvetica",
+                    "Arial",
+                    "sans-serif",
+                ],
+            },
+        },
     },
     plugins: [],
 };

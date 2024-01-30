@@ -7,10 +7,12 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
     </head>
     <body class="antialiased">
         <main>
-            <h1 class="text-2xl">Hello World</h1>
+            <h1 class="font-sans text-2xl">Hello World !</h1>
         </main>
 
     </body>

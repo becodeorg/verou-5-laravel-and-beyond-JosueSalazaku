@@ -1,5 +1,5 @@
+@vite('resources/css/app.css')
 @extends('layouts')
-
 @section('content')
     <div class="container mx-auto mt-8">
         <h1>Notes Page</h1>

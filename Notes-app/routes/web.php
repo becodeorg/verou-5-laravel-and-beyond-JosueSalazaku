@@ -25,3 +25,4 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
+Route::delete('/notes{id}', [NoteController::class, 'destroy'])->name('notes.destroy');

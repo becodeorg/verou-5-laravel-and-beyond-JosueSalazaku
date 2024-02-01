@@ -12,7 +12,7 @@
                 <p>{{ $note->content }}</p>
                 <p>{{ $note->created_at }}</p> 
                 <!-- Add delete button -->
-                <!-- <form action="{{ route('notes.destroy', $note->id) }}" method="POST" class="mt-3"> -->
+                <form action="{{ route('notes.destroy', $note->id) }}" method="POST" class="mt-3">
                     @csrf
                     @method('DELETE')
                     <button type="submit" class="text-red-500 hover:text-red-700">Delete</button>

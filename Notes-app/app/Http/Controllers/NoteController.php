@@ -29,5 +29,13 @@ class NoteController extends Controller
         return redirect()->route('notes.notes')->with('Note Added J!');
     }
 
+    public function destroy($id)
+    {
+        $note = Note::findOrFail($id);
+        $note->delete();
+
+        return redirect()->route('notes.notes')->with("Note Deleted Bro!");
+    }
+
 
 }

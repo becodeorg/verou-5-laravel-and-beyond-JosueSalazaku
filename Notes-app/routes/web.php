@@ -16,6 +16,9 @@ use App\Http\Controllers\NoteController;
 
 Route::get('/notes', [NoteController::class, 'notes'])->name('notes.notes');
 
+Route::get('/showRegister', function() {
+    return view('showRegister');
+})->name('showRegister');;
 
 Route::get('/', function () {
     return view('welcome');

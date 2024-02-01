@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NoteController;
 
 Route::get('/notes', [NoteController::class, 'notes'])->name('notes.notes');
+Route::post('/notes', [NoteController::class, 'store'])->name('notes.store');
 
 Route::get('/showRegister', function() {
     return view('showRegister');

@@ -14,10 +14,19 @@ class NoteController extends Controller
 
     public function store(Request $request)
     {
+        //validate the incomiong data request
         $validateData = $request->validate([
             'title' => 'required|max:255',
             'content' => 'required',
         ]);
+
+        //create new not using the validation data
+        Note::create([
+            'title' => $validateData['title'],
+            'content' => $validateData['content'],
+        ]);
+
+        return redirect()->route('notes.notes')->with('Note Added J!');
     }
 
 

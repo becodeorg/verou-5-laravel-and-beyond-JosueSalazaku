@@ -14,7 +14,7 @@
         <input class="w-72 bg-indigo-950 my-3 h-14 rounded-xl " type="password">
         <label class="mt-3 mr-36" for="email">Confirm password</label>
         <input class="w-72 bg-indigo-950 my-3 h-14 rounded-xl " type="password">
-        <button class="w-72 h-12 rounded-2xl bg-indigo-900 my-8 text-2xl font-semibold">Register</button>
+        <button class="w-72 h-12 rounded-2xl bg-indigo-900 my-10 text-2xl font-semibold">Register</button>
     </form>
     </section>
     </main>

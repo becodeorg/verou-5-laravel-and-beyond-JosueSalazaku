@@ -32,7 +32,7 @@
         @yield('content')
     </main>
 
-    <footer class="mt-8 bg-gray-800 text-white py-4">
+    <footer class="mt-8 bg-indigo-950 text-white py-4">
         <!-- Your footer content goes here -->
         <p class="text-center">&copy; {{ date('Y') }} Your Website</p>
     </footer>

@@ -10,7 +10,7 @@
     <!-- Additional head elements such as stylesheets, scripts, etc. -->
 </head>
 <body class="font-sans flex flex-col min-h-screen bg-black absolute inset-0 h-full w-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
-    <div class="bg-gradient-to-br from-[rgba(128,128,128,0.1)] via-transparent to-[rgba(128,128,128,0.1)] relative z-10">
+    <div class="bg-gradient-to-br from-[rgba(70,47,143,0.1)] via-transparent to-[rgba(69,35,168,0.1)] relative z-10">
         <header class="w-full h-20 flex items-center justify-around bg-black border-b-4 border-indigo-500 text-lg text-white">
             <nav class="w-full flex flex-row flex-wrap justify-around">
                 <ul class="flex flex-row mx-2 mb-2 sm:mb-0">
@@ -22,7 +22,7 @@
                 </ul>
                 <ul class="flex flex-row mx-2 mb-2 sm:mb-0">
                     <li class="w-24 border-b-4 border-indigo-500 "><a href="#">Login</a></li>
-                    <li class="w-24 border-b-4 border-indigo-500 mx-2 sm:mx-10"><a href="{{ route('showRegister') }}">Register</a></li>
+                    <li class="w-24 border-b-4 border-indigo-500 mx-2 sm:mx-10"><a href="{{ route('handleRegister') }}">Register</a></li>
                 </ul>
             </nav>
         </header>

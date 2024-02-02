@@ -15,6 +15,8 @@ class RegisterController extends Controller
             "password" => 'required',
             "password_confirm" => 'required|same:password'
         ]);
+
+        dd($validated);
         
     }
 

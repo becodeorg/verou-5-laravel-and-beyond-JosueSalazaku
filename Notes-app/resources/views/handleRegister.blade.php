@@ -8,7 +8,6 @@
         <section class="bg-indigo-500 mt-20 w-96 border border-indigo-500 rounded-2xl p-5">
             <form class="flex flex-col mt-5 justify-center items-center" action="{{ route('handleRegister') }}" method="POST">
                 @csrf
-
                 <div class="mb-3">
                     <label for="name" class="mr-60">Name</label>
                     <input class="w-80 bg-indigo-950 my-3 h-14 rounded-xl p-2 @error('name') border border-red-500 @enderror" type="text" name="name" placeholder="John" value="{{ old('name') }}">

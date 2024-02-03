@@ -21,7 +21,7 @@
                     <li class="mx-2"><a href="{{ route('notes.notes') }}">Notes</a></li>
                 </ul>
                 <ul class="flex flex-row mx-2 mb-2 sm:mb-0">
-                    <li class="w-24 border-b-4 border-indigo-500 "><a href="#">Login</a></li>
+                    <li class="w-24 border-b-4 border-indigo-500 "><a href="{{ route('login') }}">Login</a></li>
                     <li class="w-24 border-b-4 border-indigo-500 mx-2 sm:mx-10"><a href="{{ route('handleRegister') }}">Register</a></li>
                 </ul>
             </nav>
